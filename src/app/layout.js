@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 import Hero from "@/components/Hero";
+import Coktails from "@/components/Coktails";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -8,7 +9,7 @@ export default function RootLayout({ children }) {
         {children}
         <Navbar />
         <Hero />
-        <div className="h-dvh bg-black" />
+        <Coktails />
       </body>
     </html>
   );
